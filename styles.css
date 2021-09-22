@@ -1,0 +1,61 @@
+/* Dark cyan: hsl(185, 75%, 39%)
+Very dark desaturated blue: hsl(229, 23%, 23%)
+Dark grayish blue: hsl(227, 10%, 46%) */
+
+body {
+  background-color: hsl(185, 75%, 39%);
+  background-image: url("images/bg-pattern-top.svg"),
+    url("images/bg-pattern-bottom.svg");
+  background-origin: content-box;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  background-repeat: no-repeat, no-repeat;
+  background-position-x: -21.875rem, 56.25rem;
+  background-position-y: -31.25rem, 21.875rem;
+}
+
+.profile-box{
+  background-image: url("images/bg-pattern-card.svg") ;
+  background-repeat: no-repeat;
+  width: 350px;
+  text-align: center;
+  background-color: white;
+  box-sizing: border-box;
+  margin: 100px auto;
+  top: 0;
+  bottom: 0;
+  border-radius: 5%;
+}
+
+.images{
+  position: relative;
+}
+
+.victor-img{
+  margin-top: 25%;
+  border-radius: 100%;
+  border: 5px solid white;
+}
+
+.light-txt{
+  color: hsl(0, 0%, 59%);
+  
+}
+.stats{
+  font-size: 0.875rem;
+}
+
+h4{
+  font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
